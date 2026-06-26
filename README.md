@@ -16,8 +16,8 @@ Images are published to Docker Hub under
 
 Two base image variants are provided per version:
 
-- **debian** — based on `lcr.loongnix.cn/debian:14`
-- **debian-slim** — based on `lcr.loongnix.cn/debian:14-slim`
+- **debian** — based on `lcr.loongnix.cn/debian:trixie`
+- **debian-slim** — based on `lcr.loongnix.cn/debian:trixie-slim`
 
 ### Pull Images
 
