@@ -20,9 +20,9 @@ jobs:
       matrix:
         base:
           - os: debian
-            base_image: lcr.loongnix.cn/debian:14
+            base_image: lcr.loongnix.cn/debian:trixie
           - os: debian-slim
-            base_image: lcr.loongnix.cn/debian:14-slim
+            base_image: lcr.loongnix.cn/debian:trixie-slim
     permissions:
       contents: read
     steps:
