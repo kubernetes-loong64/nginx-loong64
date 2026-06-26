@@ -1,0 +1,14 @@
+diff --git a/mainline/debian/Dockerfile b/mainline/debian/Dockerfile
+index 96f6d4f..d711cf0 100644
+--- a/mainline/debian/Dockerfile
++++ b/mainline/debian/Dockerfile
+@@ -3,7 +3,8 @@
+ #
+ # PLEASE DO NOT EDIT IT DIRECTLY.
+ #
+-FROM debian:trixie-slim
++ARG BASE_IMAGE=debian:trixie-slim
++FROM $BASE_IMAGE
+ 
+ LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+ 
