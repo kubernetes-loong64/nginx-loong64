@@ -21,7 +21,7 @@
 ### 拉取镜像
 
 ```shell
-docker pull kubernetesloong64/nginx-loong64:1.31.2-debian-slim
+docker pull kubernetesloong64/nginx-loong64:1.31.3-debian-slim
 ```
 
 ## 许可证
